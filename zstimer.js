@@ -86,21 +86,21 @@ $(document).ready(function(){
         holdingShift = false;
     })
 
-    $('#btn-2-blue').on('click', function() {addScore(2, 'blue');});
-    $('#btn-4-blue').on('click', function() {addScore(4, 'blue');});
-    $('#btn-5-blue').on('click', function() {addScore(5, 'blue');});
+    $('#btn-1-blue').on('click', function() {addScore(1, 'blue');});
+    $('#btn-3-blue').on('click', function() {addScore(3, 'blue');});
+    $('#btn-3-blue').on('click', function() {addScore(5, 'blue');});
     $('#btn-7-blue').on('click', function() {addScore(7, 'blue');});
-    $('#btn-2-blue').bind('contextmenu', function(e){e.preventDefault(); addScore(-2, 'blue');});
-    $('#btn-4-blue').bind('contextmenu', function(e){e.preventDefault(); addScore(-4, 'blue');});
+    $('#btn-1-blue').bind('contextmenu', function(e){e.preventDefault(); addScore(-1, 'blue');});
+    $('#btn-3-blue').bind('contextmenu', function(e){e.preventDefault(); addScore(-3, 'blue');});
     $('#btn-5-blue').bind('contextmenu', function(e){e.preventDefault(); addScore(-5, 'blue');});
     $('#btn-7-blue').bind('contextmenu', function(e){e.preventDefault(); addScore(-7, 'blue');});
 
-    $('#btn-2-red').on('click', function() {addScore(2, 'red');});
-    $('#btn-4-red').on('click', function() {addScore(4, 'red');});
+    $('#btn-1-red').on('click', function() {addScore(1, 'red');});
+    $('#btn-3-red').on('click', function() {addScore(3, 'red');});
     $('#btn-5-red').on('click', function() {addScore(5, 'red');});
     $('#btn-7-red').on('click', function() {addScore(7, 'red');});
-    $('#btn-2-red').bind('contextmenu', function(e){e.preventDefault(); addScore(-2, 'red');});
-    $('#btn-4-red').bind('contextmenu', function(e){e.preventDefault(); addScore(-4, 'red');});
+    $('#btn-1-red').bind('contextmenu', function(e){e.preventDefault(); addScore(-1, 'red');});
+    $('#btn-3-red').bind('contextmenu', function(e){e.preventDefault(); addScore(-3, 'red');});
     $('#btn-5-red').bind('contextmenu', function(e){e.preventDefault(); addScore(-5, 'red');});
     $('#btn-7-red').bind('contextmenu', function(e){e.preventDefault(); addScore(-7, 'red');});
 });
